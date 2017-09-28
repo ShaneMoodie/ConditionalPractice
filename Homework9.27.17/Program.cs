@@ -41,25 +41,35 @@ namespace Homework9._27._17
 
 
 
-            Console.WriteLine("Enter a whole number.");
-            int firstValue = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter a whole number.");
+            //int firstValue = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter a second number.");
-            int secondValue = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter a second number.");
+            //int secondValue = int.Parse(Console.ReadLine());
 
-            if (firstValue > secondValue)
-            {
-                Console.WriteLine(firstValue + " is larger the larger value.");
-            }
-            else if (secondValue > firstValue)
-            {
-                Console.WriteLine(secondValue + " is the larger value.");
-            }
+            //if (firstValue > secondValue)
+            //{
+            //    Console.WriteLine(firstValue + " is larger the larger value.");
+            //}
+            //else if (secondValue > firstValue)
+            //{
+            //    Console.WriteLine(secondValue + " is the larger value.");
+            //}
 
-            else
-            {
-                Console.WriteLine("Both values are equal.");
-            }
+            //else
+            //{
+            //    Console.WriteLine("Both values are equal.");
+            //}
+
+
+            Console.WriteLine("Please enter four whole numbers, one at a time.");
+            int numberOne = int.Parse(Console.ReadLine());
+            int numberTwo = int.Parse(Console.ReadLine());
+            int numberThree = int.Parse(Console.ReadLine());
+            int numberFour = int.Parse(Console.ReadLine());
+
+            double sum = numberOne + numberTwo + numberThree + numberFour;
+            Console.WriteLine("The average is " + (sum / 4));
         
 
         }
